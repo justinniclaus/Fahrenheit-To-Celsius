@@ -201,15 +201,3 @@ fn main() {
     }
 }
 ```
-
----
-## Key Takeaways
-
-1. **User input** in Rust requires explicit handling of potential errors
-2. **Type conversion** from strings to numbers needs explicit parsing
-3. **Mutability** in Rust is opt-in with the `mut` keyword
-4. **String formatting** allows precise control over output presentation
-5. **Conditional logic** with multiple conditions uses logical operators (`||`, `&&`)
-6. **Error handling** with `expect()` provides feedback for failure points
-7. **Function chaining** (like `trim().parse()`) creates concise, readable code
-8. **Format specifiers** (like `{:.1}`) allow precise number formatting
